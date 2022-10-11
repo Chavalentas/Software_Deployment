@@ -5,11 +5,14 @@
         "storageAccountName" : {
             "value": "armdemoaccount"
         },
-        "storageAccountSKU" : {
-            "value": "Standard_GRS"
-        },
         "webAppName": {
             "value": "armdemoapp"
+        },
+        "location": {
+            "value": "Central US" 
+        },
+        "resourceGroup": {
+            "value": "arm_stefan_chvala"
         }
     }
 }
