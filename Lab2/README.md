@@ -16,7 +16,7 @@ The unit tests were made with Mocha and Chai.
 ## Links to the applications
 * Development (Stage 1): https://chvalalab2.azurewebsites.net
 * Production (Release) (Stage 2): https://chvalalab2rel.azurewebsites.net
-![Website](Screenshots/build.png)
+![Website](Screenshots/release_website.png)
 
 ## Build
 
