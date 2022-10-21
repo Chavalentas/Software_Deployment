@@ -21,7 +21,7 @@ The unit tests were made with Mocha and Chai.
 ## Build
 
 Here is a screenshot of the build:
-![Build](Screenshots/release_website.png)
+![Build](Screenshots/build.png)
 
 ## Deploy
 
