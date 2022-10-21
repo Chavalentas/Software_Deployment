@@ -66,6 +66,7 @@ If you create a public project, you have to send a Azure DevOps Parallelism Requ
 This is accoding to Microsoft due to the auto-mitigations against crypto-mining abuse.
 Microsoft has disabled the free grant of parallel jobs for public projects and for certain private projects in new organizations.
 The problem can be found [here](https://developercommunity.visualstudio.com/t/parallelism-request-for-running-a-pipeline/1684569).
+Since I did not want to wait for a response of the request (which would take from 2 to 3 days), I wanted to find another solution to this problem.
 It took a me while to realize that I have to create a private project.
 I confused the visibility of the project with the visiblity of the repository.
 It is not the same!
