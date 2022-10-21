@@ -57,7 +57,7 @@ The release is manually triggered by approving it.
 ## Application insights
 The following screenshots contain the insights of the both services: **ChvalaLab2** and **ChvalaLab2Rel**.
 ![DevInsights](Screenshots/application_insights.png)
-[RelInsights](Screenshots/application_insights_release.png)
+![RelInsights](Screenshots/application_insights_release.png)
 
 ## Experience 
 The task was definitely more challenging than the first one.
