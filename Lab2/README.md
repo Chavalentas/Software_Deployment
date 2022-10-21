@@ -70,7 +70,7 @@ Since I did not want to wait for a response of the request (which would take fro
 It took a me while to realize that I have to create a private project.
 I confused the visibility of the project with the visiblity of the repository.
 It is not the same!
-Another problem I encountered was deployment of the app.
+Another problem I encountered was the deployment of the app.
 I wanted to use the **Node.js Express Web App to Linux on Azure** template for the creation
 of the **azure-pipelines.yml** file.
 This template is specified for the Linux application.
