@@ -77,7 +77,7 @@ This template is specified for the Linux application.
 Since you can only use Windows version of the application service in the free tier storage in Azure,
 you have to use the correct version of the OS in the **azure-pipelines.yml** file.
 This is by changing the value of the attribute **appType** from **webAppLinux** to **webApp**.
-At first, the pipeline did not want to deploy the application because I create a Windows app service
+At first, the pipeline did not want to deploy the application because I created a Windows app service
 in Azure (since Linux version has monthly fees).
 This was because the script in **azure-pipelines.yml** was aiming at a Linux version and it found
 a Windows version in my Azure resource.
