@@ -94,5 +94,5 @@ The problem was that the **server.js**, **package.json** and **web.config** were
 I deleted this subfolder and placed the mentioned files directly into the root folder wwwroot.
 After this, the deployment was working and I could load both of the pages.
 Below are the screenshots of the updated release pipelines. 
-![Relu1](Screenshots/update-releases.png)
-![Relu2](Screenshots/update-releases-2.png)
+![Relu1](Screenshots/updated-releases.png)
+![Relu2](Screenshots/updated-releases-2.png)
