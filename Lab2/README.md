@@ -1,7 +1,6 @@
 # Lab 2
 The following document describes my approach to the task.
-The web application is a demonstrative REST-API that manipulates an object array.
-The unit tests were made with Mocha and Chai.
+The web application is a demonstrative REST-API returns the message **Hello World**.
 
 ## Links I used to solve the task
 * https://www.youtube.com/watch?v=ob4UER3wfp8
@@ -9,6 +8,7 @@ The unit tests were made with Mocha and Chai.
 * https://dev.to/mhmdlotfy96/testing-a-rest-api-in-node-js-with-express-using-mocha-and-chai-1258
 * https://www.youtube.com/watch?v=8sFTdzz55KU
 * https://www.youtube.com/watch?v=BAFCiiOAXB8
+* https://gist.github.com/davidebbo/8ad0d30ac1b1aa3d0334
 
 ## Link to the web application repository
 * https://github.com/Chavalentas/Software_Deployment_Ueb2_Web_App
@@ -82,3 +82,17 @@ in Azure (since Linux version has monthly fees).
 This was because the script in **azure-pipelines.yml** was aiming at a Linux version and it found
 a Windows version in my Azure resource.
 I did not encounter any problems during the creation of the release pipeline.
+
+### UPDATE 29.10.2022
+I found out that the both websites (https://chvalalab2.azurewebsites.net and https://chvalalab2rel.azurewebsites.net) were not working.
+I got the following error message **You do not have permission to view this directory or page.** when loading the both web pages.
+The problem seemed to be that the [**web.config**](https://gist.github.com/davidebbo/8ad0d30ac1b1aa3d0334) file was not included in the 
+root folder.
+So I included it.
+The deployment was still not working.
+The problem was that the **server.js**, **package.json** and **web.config** were included in a subfolder of wwwroot called nodeapp.
+I deleted this subfolder and placed the mentioned files directly into the root folder wwwroot.
+After this, the deployment was working and I could load both of the pages.
+Below are the screenshots of the updated release pipelines. 
+![Relu1](Screenshots/update-releases.png)
+![Relu2](Screenshots/update-releases-2.png)
