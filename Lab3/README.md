@@ -43,7 +43,7 @@ To build the containers run:
 docker-compose up -d
 ```
 Enter **http://localhost:8082/wordpress** in the browser und you can see the select language page of Wordpress.
-Enter the database credentials specified in the [MySQL docker file](https://github.com/Chavalentas/Software_Deployment/tree/main/Lab3/Teil2/MySQL). Create your website and log in to your created website.
+Enter the database credentials specified in the [MySQL docker file](https://github.com/Chavalentas/Software_Deployment/tree/main/Lab3/Teil2/MySQL/Dockerfile). Create your website and log in to your created website.
 Here are some screeshots of the setup:
 ![Setup](Screenshots/setup.png)
 ![Database](Screenshots/databaseconfig.png)
