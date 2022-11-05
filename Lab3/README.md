@@ -16,7 +16,7 @@ Delete the created images (**mysql** and **wordpress**) in your Docker Desktop a
 
 ## Teil 2
 **NOTE:** It is not necessary to build these images separately, you simply call **docker-compose up -d** in the folder Teil2 and the 
-images will built automatically during the execution.
+images will be built automatically during the execution.
 ### MySQL
 The dockerfile was created using the following [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04) (Step 2 — Installing MySQL).
 In order to ensure that the server can be accessed remotely, I used the following [tutorial](https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql).
