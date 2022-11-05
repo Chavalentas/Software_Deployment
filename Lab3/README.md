@@ -12,7 +12,7 @@ Afterwards, execute the following:
 ```
 docker-compose down -v
 ```
-Delete the created images (**mysql** and **wordpress**) in your Docker Desktop application in order to avoid conflicts with the second task.
+Delete the created images (**mysql** and **wordpress**) in your Docker Desktop application in order to avoid conflicts with the second part of the task.
 
 ## Teil 2
 **NOTE:** It is not necessary to build these images separately, you simply call **docker-compose up -d** in the folder Teil2 and the 
@@ -54,8 +54,8 @@ Afterwards, execute the following:
 ```
 docker-compose down -v
 ```
-Delete the created images in your Docker Desktop application in order to avoid conflicts with the first task
-(in case you want to do the first task again).
+Delete the created images in your Docker Desktop application in order to avoid conflicts with the first part of the task
+(in case you want to do the first part again).
 
 ## Experience
 The first problem I encountered was the fact that I was prompted during the installation of the packages.
