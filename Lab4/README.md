@@ -1,4 +1,10 @@
 # Lab 4
+**NOTE:** In order to reduce the costs associated with Kubernetes, I stopped the container.
+This means that the IP address mentioned below will not work.
+In order to start the AKS cluster again, follow the relevant section below in this tutorial.
+Please note that the IP address may change after you start the cluster again.
+It is also important to wait 15-30 minutes between stopping and starting the service.
+If you start the service sooner, it may result in errors.
 
 ## Steps to deploy
 1. Log in to Azure account using **az login**.
@@ -24,6 +30,12 @@ See more screenshots in the Screenshots folder.
 ## IP address of the service
 * 20.31.230.137
 
+## Stop the AKS
+1. Run **az aks stop --name testcluster --resource-group kubernetestest**.
+2. Verify that the service stopped using **az aks show --resource-group kubernetestest --name testcluster**.
+
+## Start the AKS
+1. Run **az aks start --name testcluster --resource-group kubernetestest**.
 
 ## Helpful links
 * https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli
