@@ -15,7 +15,7 @@ If not call **az provider register --namespace Microsoft.OperationsManagement** 
 3. Create resource group using **az group create --name kubernetestest  --location westeurope**.
 4. Create AKS cluster using **az aks create -g kubernetestest -n testcluster --enable-managed-identity --node-count 1 --enable-addons monitoring --enable-msi-auth-for-monitoring --generate-ssh-keys**.
 5. Install the kubectl using **az aks install-cli**.
-6. To ensure the 'kubelogin.exe' can be found run **$env:path += '<path to .azure-kubelogin'**.
+6. To ensure the 'kubelogin.exe' can be found run **$env:path += '<path to .azure-kubelogin>'**.
 7. Run **az aks get-credentials --resource-group kubernetestest --name testcluster** to configure kubectl to connect to the cluster.
 8. Run **kubectl get nodes** to ensure you are connected to the cluster.
 9. Create MySQL password using **kubectl create secret generic mysql-pass --from-literal=password=test**.
