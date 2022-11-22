@@ -37,6 +37,9 @@ See more screenshots in the Screenshots folder.
 ## Start the AKS
 1. Run **az aks start --name testcluster --resource-group kubernetestest**.
 
+## API server address
+testcluste-kubernetestest-deb7e4-df769a7e.hcp.westeurope.azmk8s.io
+
 ## Helpful links
 * https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli
 * https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-kubectl/
