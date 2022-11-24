@@ -6,7 +6,7 @@ Please note that the IP address may change after you start the cluster again.
 It is also important to wait 15-30 minutes between stopping and starting the service.
 If you start the service sooner, it may result in errors.
 
-**UPDATE (24.11.2022):** As the cost were still rising (despite the stopped cluster), I decided to delete the AKS cluster completely.
+**UPDATE (24.11.2022):** As the costs were still rising (despite the stopped cluster), I decided to delete the AKS cluster completely.
  
 ## Steps to deploy
 1. Log in to Azure account using **az login**.
